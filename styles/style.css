@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Condensed&display=swap');
+
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
     padding: 20px;
+    font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+    font-size: 2em;
 }
 nav a,
 #hero-msg h1,
-#hero-msg h4,
+#hero-msg h4,   
 .button-box,
 main section {
     text-align: center;
+    font-family: 'Roboto Condensed', 'Croissant', sans-serif;
+    font-size: 1em;
 }
 #background {
     height: 725px;
@@ -27,10 +33,22 @@ nav a:hover {
     color: #e29b3e;
 }
 
-.book,
-.join {
+.book, .join {
     background-color: rgb(240, 194, 8);
     color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px; 
+}
+
+.card-img {
+    border: 9px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover,
@@ -73,9 +91,12 @@ footer a {
     color: #fdf8f8; 
 }
 
-.logo,
-.icon {
-    width: 80px;
+.home-title {
+    font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+    font-size: 2em;
+}
+.logo,.icon {
+    width: 50px;
 }
 #hero-img {
     width: 100%;
