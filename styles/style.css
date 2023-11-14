@@ -8,8 +8,6 @@
     font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
     font-size: 2em;
 }
-
-
 nav a 
 {
     text-decoration: none;
@@ -23,7 +21,6 @@ nav
     justify-content: space-around;
     
 }
-nav a,
 #hero-msg h1,
 #hero-msg h4,   
 .button-box,
